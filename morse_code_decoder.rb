@@ -23,7 +23,6 @@ def decode(message)
   decoded_message.join(" ")
 end
 
-# Example usage:
 morse_code = ".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ..."
 decoded_message = decode(morse_code)
 puts decoded_message
